@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="90dp">
+
+      <EditText
+          android:id="@+id/s1"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:hint="First Number"
+          android:textSize="30dp"
+          />
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="90dp">
+
+      <EditText
+          android:id="@+id/s2"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:hint="Second Number"
+          android:textSize="30dp"
+          />
+   </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+   <Button
+       android:id="@+id/cong"
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:text="ADD"
+       android:textSize="25dp"
+       />
+
+</LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="60dp">
+      <Button
+          android:id="@+id/tru"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:text="SUDTRACT"
+          android:textSize="25dp"/>
+
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="60dp">
+      <Button
+          android:id="@+id/chia"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:text="DIVIDE"
+          android:textSize="25dp"/>
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="60dp">
+
+      <Button
+          android:id="@+id/nhan"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:text="MULTIPLY"
+          android:textSize="25dp" />
+
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="90dp">
+
+      <EditText
+          android:id="@+id/kq"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:hint="Result"
+          android:textSize="30dp"
+          />
+   </LinearLayout>
+</LinearLayout>
